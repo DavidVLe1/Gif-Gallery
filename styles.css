@@ -1,0 +1,72 @@
+body{
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: #0b0b0b;
+    text-align: center;
+    font-family: "Vintage Glitch", Stencil, "Matura MT Script Capitals";
+}
+
+.header{
+    margin-left: 6%;
+    color: white;
+    text-align: left;
+}
+
+iframe{
+    padding: .5rem;
+    width: 20.5rem;
+    height: 20.5rem;
+}
+
+button {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: .7rem;
+    font-weight: bolder;
+}
+
+.black-button{
+    cursor: pointer;
+    background: #0b0b0b linear-gradient(to bottom, #0b0b0b 30%, hotpink 30%) top;
+    background-size: 100% 300%;
+    transition: background-position 0.2s ease-in-out;
+}
+
+.black-button:hover{
+    background-position: bottom;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.grey-button {
+    background-color: dimgray;
+    width: 125px;
+}
+
+#greybutton1{
+    background: dimgrey linear-gradient(to right, deepskyblue 20%, dimgrey 20%) left;
+}
+
+.purple-button{
+    cursor: pointer;
+    background-color: mediumpurple;
+}
+
